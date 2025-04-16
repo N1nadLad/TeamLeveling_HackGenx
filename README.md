@@ -73,3 +73,8 @@ The backend receives the detection and:
  - Admins can monitor all tasks on a web dashboard.
  - They can filter by status (Pending, In Progress, Completed), time, or location.
  - Optional live feed preview and deletion of false positives are supported.
+
+## Team
+ - Arman Shaikh
+
+#
