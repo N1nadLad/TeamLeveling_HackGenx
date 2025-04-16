@@ -78,4 +78,5 @@ The backend receives the detection and:
  - Arman Shaikh
  - Shrutika Jaware
  - Ninad Lad
+ - Mohammad Mudassir Qureshi
 
