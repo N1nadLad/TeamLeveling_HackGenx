@@ -77,5 +77,5 @@ The backend receives the detection and:
 ## Team
  - Arman Shaikh
  - Shrutika Jaware
-
+ - Ninad Lad
 
