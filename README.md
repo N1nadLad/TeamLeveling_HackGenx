@@ -32,3 +32,43 @@ CleanVision offers an end-to-end, AI-powered solution to automate waste detectio
  - Automatically assign tasks to cleaning staff through a mobile app.
 
  - Provide facility managers with a web-based dashboard to track and manage tasks efficiently.
+
+## How CleanVision Works
+
+CleanVision is built as a modular system combining AI, backend services, and user-facing apps to ensure seamless detection and response. Here's how the system operates:
+
+**Real-Time Detection with AI Cameras**
+CCTV feeds are continuously analyzed using a custom-trained YOLOv8 model to detect garbage, spills, and similar anomalies in real time.
+
+
+**Detection Trigger and Reporting**
+
+When garbage is detected, CleanVision:
+ - Captures a frame from the video.
+ - Collects metadata like timestamp, location (via IP-based geolocation), and device info.
+ - Sends this data to the backend through a REST API.
+
+
+
+**Task Generation & Management**
+
+The backend receives the detection and:
+ - Creates a cleaning task.
+ - Stores all details (image, location, detection type) in a PostgreSQL database.
+ - Sets the task status as "Unassigned."
+
+
+
+**Worker Mobile App**
+
+ - Cleaning staff use the CleanVision mobile app to view nearby unassigned tasks.
+ - Workers can self-assign a task with one tap.
+ - Once completed, they upload a photo and mark the task as "Done."
+
+
+
+**Admin Dashboard**
+
+ - Admins can monitor all tasks on a web dashboard.
+ - They can filter by status (Pending, In Progress, Completed), time, or location.
+ - Optional live feed preview and deletion of false positives are supported.
