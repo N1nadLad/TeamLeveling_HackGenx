@@ -64,7 +64,7 @@ The backend receives the detection and:
 
  - Cleaning staff use the CleanVision mobile app to view nearby unassigned tasks.
  - Workers can self-assign a task with one tap.
- - Once completed, they upload a photo and mark the task as "Done."
+ - Once completed, they upload a photo and mark the task as "Done".
 
 
 
