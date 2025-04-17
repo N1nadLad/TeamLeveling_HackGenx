@@ -74,6 +74,10 @@ The backend receives the detection and:
  - They can filter by status (Pending , In Progress , Completed), time, or location.
  - Optional live feed preview and deletion of false positives are supported.
 
+## Diagrams
+
+![flow-diagram](assets/images/Blank diagram (2).png)
+
 ## Team
  - Arman Shaikh
  - Shrutika Jaware
